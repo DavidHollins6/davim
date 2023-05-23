@@ -1,12 +1,13 @@
 <script lang="ts">
 	import Bar from '../../components/search/bar.svelte';
-	import Shortcut from '../../components/shortcut.svelte';
+	import Shortcut from '../../components/shortcut/shortcut.svelte';
 	import DefaultPill from '../../components/defaultPill.svelte';
 	import { command } from '../../stores/commandStore';
 </script>
 
-<Bar />
-
+<div class="search">
+	<Bar />
+</div>
 <div class="header-container">
 	{#if $command.default}
 		<DefaultPill />
@@ -31,5 +32,11 @@
 
 	.description {
 		margin: 0;
+	}
+
+	.search {
+		position: absolute;
+		top: 8px;
+		right: 8px;
 	}
 </style>

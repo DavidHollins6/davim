@@ -18,7 +18,9 @@
 	</div>
 </div>
 <div class="usings">
-	<a href="https://github.com/DavidHollins6/davim" target="_blank" ><img src={githubLogo} /></a>
+	<a href="https://github.com/DavidHollins6/davim" target="_blank"
+		><img alt="GitHub Logo" src={githubLogo} /></a
+	>
 </div>
 
 <style>

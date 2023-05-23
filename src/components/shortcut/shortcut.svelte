@@ -2,10 +2,10 @@
 	import { onMount } from 'svelte';
 	import confetti from 'canvas-confetti';
 	import ShortcutKey from './shortcutKey.svelte';
-	import { convertToKeys } from '../utils/convertToKeys';
-	import { leaderKey } from '../stores/leaderStore';
-	import { command } from '../stores/commandStore';
-	import { shortcutCreator } from '../utils/shortcutCreator';
+	import { convertToKeys } from '../../utils/convertToKeys';
+	import { leaderKey } from '../../stores/leaderStore';
+	import { command } from '../../stores/commandStore';
+	import { shortcutCreator } from '../../utils/shortcutCreator';
 	import { browser } from '$app/environment';
 	import mousetrap from 'mousetrap';
 

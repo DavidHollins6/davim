@@ -1,9 +1,9 @@
 <script lang="ts">
 	import confetti from 'canvas-confetti';
-	import { leaderKey } from '../stores/leaderStore';
-	import LeaderKey from './leaderKey/leaderKey.svelte';
+	import { leaderKey } from '../../stores/leaderStore';
+	import LeaderKey from '../leaderKey/leaderKey.svelte';
 
-	export let letter: strnsing;
+	export let letter: string;
 	export let hit: boolean;
 	export let index: number;
 
