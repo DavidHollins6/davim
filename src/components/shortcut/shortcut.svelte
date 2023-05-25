@@ -32,11 +32,11 @@
 						zIndex: 3
 					});
 
-                    clearTimeout(sequenceTimeout);
+					clearTimeout(sequenceTimeout);
 					sequenceTimeout = setTimeout(() => (shortcutIndex = -1), 750);
 
 					if (shortcutIndex === newBinding.length - 1) {
-                        clearTimeout(sequenceTimeout);
+						clearTimeout(sequenceTimeout);
 						setTimeout(() => (shortcutIndex = -1), 500);
 					}
 				} else {

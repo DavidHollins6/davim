@@ -105,6 +105,6 @@
 
 	.results a:hover,
 	a:focus {
-		background-color: var(--foreground-dark);
+		background-color: var(--foreground);
 	}
 </style>

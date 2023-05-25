@@ -3,18 +3,126 @@
         "cmd": "<leader>pv",
         "description": "opens the built-in File Explorer",
         "default": false,
-        "mode": "NORMAL"
+        "mode": "NORMAL",
+        "tags": ["files"]
     },
     {
         "cmd": "<S-a>",
         "description": "moves the cursor to the end of the line and enters INSERT mode",
         "default": true,
-        "mode": "NORMAL"
+        "mode": "NORMAL",
+        "tags": ["movement"]
     },
     {
         "cmd": "ci\"",
         "description": "removes the text inside the next set of double quotes",
         "default": true,
-        "mode": "NORMAL"
+        "mode": "NORMAL",
+        "tags": ["movement", "deletion"]
+    },
+    {
+        "cmd": "J",
+        "description": "moves the highlighted code down",
+        "default": false,
+        "mode": "VISUAL",
+        "tags": ["movement"]
+    },
+    {
+        "cmd": "K",
+        "description": "moves the highlighted code up",
+        "default": false,
+        "mode": "VISUAL",
+        "tags": ["movement"]
+    },
+    {
+        "cmd": "<leader>y",
+        "description": "yanks into the system clipboard",
+        "default": false,
+        "mode": "NORMAL",
+        "tags": ["clipboard"]
+    },
+    {
+        "cmd": "<leader>f",
+        "description": "formats the document",
+        "default": false,
+        "mode": "NORMAL",
+        "tags": ["lsp"]
+    },
+    {
+        "cmd": "<leader>s",
+        "description": "finds and replaces the current word you are on",
+        "default": false,
+        "mode": "NORMAL",
+        "tags": ["lsp"]
+    },
+    {
+        "cmd": "f",
+        "description": "finds the next occurrence of the next character you press",
+        "default": true,
+        "mode": "NORMAL",
+        "tags": ["movement"]
+    },
+    {
+        "cmd": "t",
+        "description": "finds the next occurrence of the next character you press and places the cursor before it",
+        "default": true,
+        "mode": "NORMAL",
+        "tags": ["movement"]
+    },
+    {
+        "cmd": "vi(",
+        "description": "selects everything inside the next set of brackets" ,
+        "default": true,
+        "mode": "VISUAL",
+        "tags": ["selection", "movement"]
+    },
+    {
+        "cmd": "va(",
+        "description": "selects everything inside (including the brackets) the next set of brackets",
+        "default": true,
+        "mode": "VISUAL",
+        "tags": ["selection", "movement"]
+    },
+    {
+        "cmd": "yiW",
+        "description": "yanks the whole word that your cursor is on",
+        "default": true,
+        "mode": "NORMAL",
+        "tags": ["selection", "movement"]
+    },
+    {
+        "cmd": "ciW",
+        "description": "cuts the words that is currently selected",
+        "default": true,
+        "mode": "NORMAL",
+        "tags": ["selection", "movement"]
+    },
+    {
+        "cmd": "<leader>p",
+        "description": "pastes but keeps the value on the registry",
+        "default": true,
+        "mode": "NORMAL",
+        "tags": ["selection", "movement"]
+    },
+    {
+        "cmd": "VY",
+        "description": "yanks the whole line",
+        "default": true,
+        "mode": "NORMAL",
+        "tags": ["selection", "movement"]
+    },
+    {
+        "cmd": "VD",
+        "description": "deletes the whole line",
+        "default": true,
+        "mode": "NORMAL",
+        "tags": ["selection", "movement"]
+    },
+    {
+        "cmd": "=ap",
+        "description": "fixes tabbing in the current paragraph",
+        "default": true,
+        "mode": "NORMAL",
+        "tags": ["selection", "movement"]
     }
 ]
