@@ -1,38 +1,10 @@
-# create-svelte
+# DAVIM
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A place for me to store all of the VIM motions & commands that I've been learning. I also took this as an opportunity to use Svelte!
 
-## Creating a project
+## Things I would love to add
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Responsive mode, it'd be great to be able to view this on mobile or tablet.
+- Theme changing, at the moment it is mainly Dracula, but it'd be cool to change that.
+- Tags display, the data here is tagged, but there is currently no visual indication of them.
+- Preview commands in code, it'd be cool to see a demonstration of what the code does.
