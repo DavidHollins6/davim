@@ -8,3 +8,4 @@ A place for me to store all of the VIM motions & commands that I've been learnin
 - Theme changing, at the moment it is mainly Dracula, but it'd be cool to change that.
 - Tags display, the data here is tagged, but there is currently no visual indication of them.
 - Preview commands in code, it'd be cool to see a demonstration of what the code does.
+- Get a better favicon
